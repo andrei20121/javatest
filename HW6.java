@@ -20,7 +20,6 @@ public class HW6 {
     public static void main(String[] args) throws IOException {
 
         OkHttpClient client = new OkHttpClient();
-
         HttpUrl url = new HttpUrl.Builder()
                 .scheme("http")
                 .host(HOST)
